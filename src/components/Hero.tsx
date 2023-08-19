@@ -10,7 +10,7 @@ export default function Hero() {
         <div
           className={`p-4 max-w-[300px] h-fit flex flex-col items-center justify-center gap-1 mx-auto md:items-start md:self-end md:ml-36 md:mb-14`}>
           <p className="text-xl font-semibold md:text-xl ">Introducing</p>
-          <h1 className="text-3xl font-bold md:text-6xl">Bottom x KTNLAJ</h1>
+          <h1 className="text-2xl font-bold md:text-6xl">Bottom x KTNLAJ</h1>
           <p className="text-base font-medium md:text-xl">
             Design by Marc Marques
           </p>

@@ -2,7 +2,10 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Banner from "./components/Banner";
 import Cards from "./components/Cards";
-import Review from "./components/Review";
+// import Review from "./components/Review";
+import { ReviewCoba } from "./components/ReviewCoba";
+import { LearnMore } from "./components/LearnMore";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -11,7 +14,9 @@ function App() {
       <Hero />
       <Banner />
       <Cards />
-      <Review />
+      <ReviewCoba />
+      <LearnMore />
+      <Footer />
     </>
   );
 }

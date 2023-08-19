@@ -1,6 +1,10 @@
-export default function PriceTag() {
+interface Props {
+  style?: string;
+}
+
+export default function PriceTag({ style }: Props) {
   return (
-    <div className="absolute bottom-3 sm:bottom-4 flex flex-col justify-center min-w-[8rem] sm:min-w-[12.5rem] md:w-[13.5rem] lg:w-[16.5rem] rounded-lg bg-white opacity-95 py-1 sm:py-3 px-2 sm:px-6 text-sm md:text-xl">
+    <div className={`${style}`}>
       <h2 className="font-bold">Model 000</h2>
       <div className="flex justify-between">
         <p>Red</p>

@@ -2,17 +2,21 @@ import PriceTag from "./PriceTag";
 interface Props {
   myKey?: number;
   src: string;
+  PriceTagstyle?: string;
 }
-export default function Card({ myKey, src }: Props) {
+export default function Card({ myKey, src, PriceTagstyle }: Props) {
   return (
-    <div
-      key={myKey}
-      className="overflow-hidden h-fit w-fit bg-white border rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+    <div key={myKey} className={`overflow-hidden transition5s`}>
       <div className="flex justify-center relative">
         <a href="#">
-          <img className="w-full h-full object-cover" src={src} alt="catalog" />
+          <img
+            className="object-cover rounded-lg"
+            src={src}
+            alt="catalog"
+            loading="lazy"
+          />
         </a>
-        <PriceTag />
+        <PriceTag style={`${PriceTagstyle}`} />
       </div>
     </div>
   );
