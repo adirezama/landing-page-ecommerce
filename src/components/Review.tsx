@@ -3,14 +3,14 @@ import Card from "./Card";
 export default function Review() {
   return (
     <section className="flex justify-center items-center">
-      <div className="max-w-6xl grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-        <div className="col-span-2 bg-gray-400 overflow-hidden rounded-2xl flex flex-col justify-between">
+      <div className="max-w-6xl grid gap-4 grid-cols-2 md:grid-cols-3">
+        <div className="col-span-2 bg-gray-200 bg-opacity-75 overflow-hidden rounded-2xl flex flex-col justify-between">
           <h2 className="font-bold lg:text-6xl text-center capitalize p-4">
             the hype is real
           </h2>
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <img
-              className="w-full h-full aspect-square md:w-80 md:h-80 px-4 lg:p-0 lg:max-w-sm lg:w-full object-cover rounded-2xl"
+              className="aspect-square md:w-80 md:h-80 px-4 lg:p-0 lg:max-w-sm lg:w-full object-cover"
               src="/photo-24.png"
               alt=""
             />

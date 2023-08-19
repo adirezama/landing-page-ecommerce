@@ -5,14 +5,19 @@ export default function Cards() {
     <section className="flex flex-col justify-between items-center">
       <div className="flex justify-between items-center max-w-6xl w-full mb-2">
         <h2 className="text-3xl">Explore Model 000</h2>
-        <a href="#" className="text-xl underline underline-offset-4">
+        <a href="#" className="text-xl hover:underline underline-offset-8">
           See more
         </a>
       </div>
 
-      <div className="max-w-6xl grid gap-4 grid-cols-2 md:grid-cols-3 p-4 sm:p-0">
+      <div className="max-w-6xl grid gap-4 grid-cols-2 md:grid-cols-3 p-4 sm:p-2 md:p-0">
         {images.map((image, i) => (
-          <Card key={i} myKey={i} src={image.source} />
+          <Card
+            key={i}
+            myKey={i}
+            src={image.source}
+            PriceTagstyle="priceTagCards"
+          />
         ))}
       </div>
 

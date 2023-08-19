@@ -9,6 +9,9 @@ export default {
         col2: "repeat(2, minmax(250px,1fr))",
         col3: "repeat(3, minmax(250px, 1fr))",
       },
+      gridTemplateRows: {
+        rows2: "repeat(2, minmax(150px, 350px)",
+      },
       width: {
         widthMax: "1250px",
       },

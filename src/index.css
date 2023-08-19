@@ -11,6 +11,15 @@
 
 @layer components {
   .card {
-    @apply max-w-[10rem] h-44 md:max-w-[23.35rem] md:h-[530px] overflow-hidden relative rounded-2xl;
+    @apply max-w-[25rem] bg-white border rounded-lg shadow-md;
+  }
+  .transition5s {
+    @apply transform transition duration-500 hover:scale-95;
+  }
+  .priceTagCards {
+    @apply absolute bottom-[5%] flex flex-col justify-center min-w-[80%] rounded-lg bg-white opacity-95 py-1 sm:py-3 px-2 sm:px-6 text-sm md:text-xl;
+  }
+  .priceTagCatalog {
+    @apply absolute bottom-[30%]  flex flex-col justify-center min-w-[80%] rounded-lg bg-white opacity-95 py-1 sm:py-3 px-2 sm:px-6 text-sm md:text-xl;
   }
 }
