@@ -33,7 +33,6 @@ export function ReviewCoba() {
           <Card src="Rectangle4.png" PriceTagstyle="priceTagCatalog" />
         </div>
         <div className="aspect-square overflow-hidden col-span-2 row-span-full rounded-lg transition5s">
-          {/* <img src="Rectangle1.png" alt="" /> */}
           <Card src="Rectangle5.png" PriceTagstyle="priceTagCatalog" />
         </div>
       </div>
