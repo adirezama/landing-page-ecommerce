@@ -6,6 +6,7 @@ import Cards from "./components/Cards";
 import { ReviewCoba } from "./components/ReviewCoba";
 import { LearnMore } from "./components/LearnMore";
 import { Footer } from "./components/Footer";
+import ImageSlider from "./components/ImageSlider";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Cards />
       <ReviewCoba />
       <LearnMore />
+      <ImageSlider />
       <Footer />
     </>
   );
